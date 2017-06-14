@@ -1,9 +1,12 @@
-## Protobuf Start Learning ##
+Protobuf Start Learning
+=======================
 
+### Install Protobuf Generate Plugin
+```sh
+    brew install protobuf
+```
 
-### Install Protobuf Generate Plugin ###
-brew install protobuf
-
-### Generate Code ###
-protoc -I=. --java_out=src/main/java src/main/proto/contacts.proto
-
+### Generate Code
+```sh
+    protoc -I=. --java_out=src/main/java src/main/proto/contacts.proto
+```
